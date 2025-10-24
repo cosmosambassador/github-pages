@@ -1,0 +1,19 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jet Services Eco System</title>
+  <desc id="desc">Stylized orbital logo representing the Jet Services mission control network.</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#6340ff" />
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="110" fill="none" stroke="url(#gradient)" stroke-width="12" />
+  <circle cx="120" cy="120" r="72" fill="none" stroke="#0b1b3a" stroke-width="8" />
+  <circle cx="120" cy="120" r="16" fill="#0b1b3a" />
+  <g stroke="#00d4ff" stroke-width="6" stroke-linecap="round">
+    <path d="M120 28 L120 212" />
+    <path d="M28 120 L212 120" />
+    <path d="M60 60 L180 180" />
+    <path d="M180 60 L60 180" />
+  </g>
+</svg>

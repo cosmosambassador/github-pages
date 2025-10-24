@@ -1,0 +1,49 @@
+# Site settings
+lang: en
+
+# Theme
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site metadata
+url: "https://example.com"
+baseurl: ""
+
+# Content metadata
+logo: /assets/images/logo.svg
+title: Jet Services Eco System
+description: >-
+  Documentation hub for the Jet Services Eco System, covering automation agents, operational playbooks,
+  and configuration guides for the Jet Services fleet.
+
+# Navigation
+collections:
+  guides:
+    output: true
+    permalink: /guides/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: page
+      toc: true
+
+social_links:
+  - name: GitHub
+    url: https://github.com/jet-services
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/jet-services
+  - name: Support Portal
+    url: https://support.jet-services.example
+
+footer: |
+  <p>&copy; {{ "now" | date: "%Y" }} Jet Services. All rights reserved.</p>
